@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: rgb(0, 0, 33);
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgb(18, 18, 62);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 0.5rem;
+    
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: black;
+  color: white; */
+  padding: 60px 10%;
+  position: relative;
+  margin-top: 5%;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  font-weight: 3rem;
+}
+h1 span{
+  color: #12e12e;
+}
+
+#p1{
+  font-size: 2rem;
+  margin-bottom: 5px;
+  font-weight: 3rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* .hero-content p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+} */
+
+.btn {
+  background-color: #2979ff;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hero-img img {
+  height: 400px;
+  object-fit: cover;
+}
+
+/* About Section */
+.about {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  padding: 60px 10%;
+  /* background-color: black;
+  color: white; */
+}
+
+/* .about-img img {
+  max-width: 280px;
+  border-radius: 10px;
+} */
+
+.about-text {
+  margin-left: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  margin-bottom: 15px;
+  /* color: #555; */
+}
+
+.About-contact{
+  margin-top: 8%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin: 208px 18%;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contact-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Services{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 60px;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.my-services{
+  background: #212121;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 4px solid transparent;
+  padding: 30% 20%;
+  text-align: start;
+  border-radius: 1rem;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.my-services h2{
+  color: grey;
+  font-size: 3rem;
+}
+
+#skill{
+  text-align: center;
+  justify-content: center;
+  align-items: flex;
+  margin-top: 90px;
+}
+
+.Skills{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+  margin-top: 90px;
+  margin-left: 10%;
+  width: 80%;
+}
+
+.my-skill{
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 15px;
+  border-bottom: 4px solid transparent;
+  border-radius: 3rem;
+}
+
+.contact{
+  padding-top: 130px;
+  text-align: center;
+}
+h1{
+  margin-bottom: 50px;
+}
+
+form{
+  width: 60%;
+  margin: 0 auto;
+  margin-left: 23%;
+  position: absolute;
+}
+
+.form-top{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+form input{
+  padding: 10px;
+  background: transparent;
+  margin-bottom: 30px;
+  border: none;
+  box-shadow: 0 1px 0 0 #7e686895;
+  color: white;
+  transition: 4s ease;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 500;
+}
+
+form input:focus{
+  border-bottom: 1px solid transparent;
+  box-shadow: none;
+}
+
+.form-bottom{
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+}
+
+.form-bottom textarea{
+  padding: 10px;
+  background: transparent;
+  margin-bottom: 30px;
+  resize: none;
+  height: 100px;
+  width: 100%;
+  border: 1px solid #7e686895;
+  color: white;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 500;
+}
+
